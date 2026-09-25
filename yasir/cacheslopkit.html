@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-<html manifest="slopkit.manifest" lang="en" dir="ltr">
+<html manifest="css.manifest" lang="ar" dir="rtl">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>زياد</title>
+<title>معرض سوني سوق الشيوخ 07807982580</title>
 <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@600;700;800;900&family=Orbitron:wght@400;600;800;900&family=Rajdhani:wght@500;600;700&family=Tajawal:wght@500;700;800&display=swap" rel="stylesheet">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
 
 <style>
 *{box-sizing:border-box}
 html,body{margin:0;min-height:100%;width:100%}
-body{font-family:'Rajdhani',sans-serif;background:#08090d;color:#fff;overflow:hidden;min-height:100vh;display:flex;flex-direction:column;justify-content:space-between;align-items:center;position:relative;padding:24px 16px;background-size:40px 40px;background-image:linear-gradient(to right,rgba(255,255,255,.03) 1px,transparent 1px),linear-gradient(to bottom,rgba(255,255,255,.03) 1px,transparent 1px)}
+body{font-family:'Tajawal',sans-serif;background:#08090d;color:#fff;overflow:hidden;min-height:100vh;display:flex;flex-direction:column;justify-content:space-between;align-items:center;position:relative;padding:24px 16px;background-size:40px 40px;background-image:linear-gradient(to right,rgba(255,255,255,.03) 1px,transparent 1px),linear-gradient(to bottom,rgba(255,255,255,.03) 1px,transparent 1px)}
 html[dir="rtl"] body{font-family:'Tajawal',sans-serif}
 html[dir="rtl"] .orbitron{font-family:'Cairo',sans-serif;font-weight:800}
 .orbitron{font-family:'Orbitron',sans-serif}
@@ -44,30 +44,30 @@ footer{width:100%;max-width:1024px;text-align:center}
 
 <header>
   <div class="lang-container">
-    <button class="lang-btn" id="toggleBtn">
+    <button class="lang-btn" onclick="toggleLanguage()">
       <i class="fa-solid fa-globe"></i>
       <span id="langBtnText">العربية</span>
     </button>
   </div>
   <div class="panel header-panel">
-    <h1 id="siteTitle" class="orbitron">زياد</h1>
+    <h1 id="siteTitle" class="orbitron">معرض سوني سوق الشيوخ 07807982580</h1>
     <div class="gold-line"></div>
   </div>
 </header>
 
 <main>
   <section class="panel status-panel">
-    <div id="badgeText" class="badge">Offline Cache Installation</div>
-    <h1 id="msgs" class="orbitron">Starting Cache Installation...</h1>
+    <div id="badgeText" class="badge">معرض سوني سوق الشيوخ 07807982580</div>
+    <h1 id="msgs" class="orbitron">معرض سوني سوق الشيوخ 07807982580</h1>
     <div class="loading"></div>
   </section>
 </main>
 
 <footer>
   <div class="panel footer-panel">
-    <span id="footerPowered">Powered by</span>
-    <span class="gold orbitron">4PS4.PRO</span>
-    <span id="footerThanks">| Thank Yasir Aliraqi</span>
+    <span id="footerPowered">معرض سوني سوق الشيوخ 07807982580</span>
+    <span class="gold orbitron">معرض سوني سوق الشيوخ 07807982580</span>
+    <span id="footerThanks">| معرض سوني سوق الشيوخ 07807982580</span>
   </div>
 </footer>
 
@@ -76,54 +76,56 @@ history.replaceState(null,null,'index.html');var histlength=history.length;histo
 
 var currentPercent = 0;
 var cacheStatus = "installing";
-var currentLang = "en";
 
 const i18n = {
     en: {
-        siteTitle: "زياد",
-        badgeText: "Offline Cache Installation",
-        startingMsg: "Starting Cache Installation...",
-        installingMsg: "Installing Offline Cache: ",
-        successMsg: "Cache Installed Successfully ✔",
-        reopenMsg: "Now Close And Re-Open Your Browser ...",
-        errorMsg: "Error Installing Cache! - Clear and Re-Open Your Browser ...",
-        footerPowered: "Powered by",
-        footerThanks: "| Thank Yasir Aliraqi",
+        siteTitle: "معرض سوني سوق الشيوخ 07807982580",
+        badgeText: "معرض سوني سوق الشيوخ 07807982580",
+        startingMsg: "معرض سوني سوق الشيوخ 07807982580",
+        installingMsg: "معرض سوني سوق الشيوخ 07807982580: ",
+        successMsg: "معرض سوني سوق الشيوخ 07807982580 ✔",
+        reopenMsg: "معرض سوني سوق الشيوخ 07807982580",
+        errorMsg: "معرض سوني سوق الشيوخ 07807982580",
+        footerPowered: "معرض سوني سوق الشيوخ 07807982580",
+        footerThanks: "| معرض سوني سوق الشيوخ 07807982580",
         langToggleBtn: "العربية"
     },
     ar: {
-        siteTitle: "زياد",
-        badgeText: "تثبيت التخزين المؤقت (أوفلاين)",
-        startingMsg: "جاري البدء بتثبيت التخزين المؤقت...",
-        installingMsg: "جاري تثبيت التخزين المؤقت: ",
-        successMsg: "تم تثبيت التخزين المؤقت بنجاح ✔",
-        reopenMsg: "الآن قم بإغلاق المتصفح وإعادة فتحه...",
-        errorMsg: "خطأ في تثبيت التخزين المؤقت! - قم بمسح بيانات المتصفح وإعادة الفتح...",
-        footerPowered: "بواسطة",
-        footerThanks: "| شكراً ياسر العراقي",
+        siteTitle: "معرض سوني سوق الشيوخ 07807982580",
+        badgeText: "معرض سوني سوق الشيوخ 07807982580",
+        startingMsg: "معرض سوني سوق الشيوخ 07807982580",
+        installingMsg: "معرض سوني سوق الشيوخ 07807982580: ",
+        successMsg: "معرض سوني سوق الشيوخ 07807982580 ✔",
+        reopenMsg: "معرض سوني سوق الشيوخ 07807982580",
+        errorMsg: "معرض سوني سوق الشيوخ 07807982580",
+        footerPowered: "معرض سوني سوق الشيوخ 07807982580",
+        footerThanks: "| معرض سوني سوق الشيوخ 07807982580",
         langToggleBtn: "English"
     }
 };
 
 const arabicCountries = ['SA','AE','EG','IQ','KW','QA','BH','OM','JO','LB','SY','PS','YE','DZ','MA','TN','LY','SD','MR','SO','DJ','KM'];
+let currentLang = localStorage.getItem('site_lang');
 
 function updateStatusText() {
-    var msgElem = document.getElementById("msgs");
-    if(!msgElem) return;
-    
     if (cacheStatus === "installing") {
-        msgElem.innerHTML = currentPercent > 0 ? i18n[currentLang].installingMsg + currentPercent + "%" : i18n[currentLang].startingMsg;
+        if (currentPercent > 0) {
+            window.msgs.innerHTML = i18n[currentLang].installingMsg + currentPercent + "%";
+        } else {
+            window.msgs.innerHTML = i18n[currentLang].startingMsg;
+        }
     } else if (cacheStatus === "success") {
-        msgElem.innerHTML = i18n[currentLang].successMsg;
+        window.msgs.innerHTML = i18n[currentLang].successMsg;
     } else if (cacheStatus === "reopen") {
-        msgElem.innerHTML = i18n[currentLang].reopenMsg;
+        window.msgs.innerHTML = i18n[currentLang].reopenMsg;
     } else if (cacheStatus === "error") {
-        msgElem.innerHTML = i18n[currentLang].errorMsg;
+        window.msgs.innerHTML = i18n[currentLang].errorMsg;
     }
 }
 
 function applyLanguage(lang) {
     currentLang = lang;
+    localStorage.setItem('site_lang', lang);
     document.documentElement.setAttribute('lang', lang);
     document.documentElement.setAttribute('dir', lang === 'ar' ? 'rtl' : 'ltr');
 
@@ -136,35 +138,39 @@ function applyLanguage(lang) {
     updateStatusText();
 }
 
-document.getElementById('toggleBtn').onclick = function() {
+function toggleLanguage() {
     applyLanguage(currentLang === 'en' ? 'ar' : 'en');
-};
+}
 
-function autoDetectCountry() {
-    // 1. Check browser languages first
-    var userLangs = navigator.languages || [navigator.language || navigator.userLanguage || ""];
-    for(var i = 0; i < userLangs.length; i++) {
-        if(userLangs[i] && userLangs[i].toLowerCase().indexOf('ar') === 0) {
+async function detectLanguage() {
+    if (currentLang) {
+        applyLanguage(currentLang);
+        return;
+    }
+    const userLangs = navigator.languages || [navigator.language || navigator.userLanguage];
+    if (userLangs.some(l => l && l.toLowerCase().startsWith('ar'))) {
+        applyLanguage('ar');
+        return;
+    }
+    try {
+        const res = await fetch('https://ipapi.co/json/', { timeout: 3000 });
+        const data = await res.json();
+        if (data && arabicCountries.includes(data.country_code)) {
             applyLanguage('ar');
             return;
         }
-    }
+    } catch (e) {}
 
-    // 2. Query IP Geolocation
-    var xhr = new XMLHttpRequest();
-    xhr.open('GET', 'https://ipapi.co/json/', true);
-    xhr.timeout = 2500;
-    xhr.onload = function() {
-        if (xhr.status === 200) {
-            try {
-                var data = JSON.parse(xhr.responseText);
-                if (data && arabicCountries.indexOf(data.country_code) !== -1) {
-                    applyLanguage('ar');
-                }
-            } catch(e) {}
+    try {
+        const res2 = await fetch('https://ipwho.is/', { timeout: 3000 });
+        const data2 = await res2.json();
+        if (data2 && data2.success && arabicCountries.includes(data2.country_code)) {
+            applyLanguage('ar');
+            return;
         }
-    };
-    xhr.send();
+    } catch (e) {}
+
+    applyLanguage('ar');
 }
 
 function DLProgress(e){
@@ -182,17 +188,15 @@ function DisplayCacheProgress(){
     }, 1500);
 }
 
-if (window.applicationCache) {
-    window.applicationCache.addEventListener("progress", DLProgress, false);
-    window.applicationCache.oncached = DisplayCacheProgress;
-    window.applicationCache.onupdateready = DisplayCacheProgress;
-    window.applicationCache.onerror = function(){
-        cacheStatus = "error";
-        updateStatusText();
-    };
-}
+window.applicationCache.addEventListener("progress", DLProgress, false);
+window.applicationCache.oncached = function(e){ DisplayCacheProgress(); };
+window.applicationCache.onupdateready = function(e){ DisplayCacheProgress(); };
+window.applicationCache.onerror = function(e){
+    cacheStatus = "error";
+    updateStatusText();
+};
 
-autoDetectCountry();
+detectLanguage();
 </script>
 </body>
 </html>
